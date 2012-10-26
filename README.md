@@ -1,6 +1,6 @@
 <h2>evernote_toy_app</h2>
 
-<strong>About</strong>
+<strong>About</strong>: 
 A simple app that enables browsing of images in your Evernote account (currently sandbox accounts only).
 Essentially converts your evernote account to a flickr-like utility (doesn't include uploading new images for now)
 
@@ -38,13 +38,13 @@ Try the demo at http://evernotoy.appspot.com (Currently works with sandbox.evern
 </ul>
 
 
-The app is structured like any other django app. I have added a wrapper over the api in (evernote_api.py)(https://github.com/rahul342/evernote_toy_app/blob/master/evernotoy/evernote_api.py) (Trimmed and appended <a href="https://github.com/akhaku/evernote-django">evernote-django</a> to suit the purpose. Thanks <a href="https://github.com/akhaku">akhaku</a>!)
+The app is structured like any other django app. I have added a wrapper over the api in <a href="https://github.com/rahul342/evernote_toy_app/blob/master/evernotoy/evernote_api.py">evernote_api.py</a> (Trimmed and appended <a href="https://github.com/akhaku/evernote-django">evernote-django</a> to suit the purpose. Thanks <a href="https://github.com/akhaku">akhaku</a>!)
 
 <h3> Some other libraries/frameworks/sources </h3>
 Also using the awesome 
 <ul>
-<li>[Twitter Bootstrap](http://twitter.github.com/bootstrap/)</li>
-<li>[ColorBox](http://www.jacklmoore.com/colorbox)</li>
+<li><a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap</a></li>
+<li><a href="http://www.jacklmoore.com/colorbox">ColorBox</a></li>
 <li>Background image from http://subtlepatterns.com/</li>
 </ul>
 
