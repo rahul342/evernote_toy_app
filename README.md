@@ -57,5 +57,5 @@ To deploy your own version, download the code. Add a new ```evernote_key_setting
 EVERNOTE_CONSUMER_KEY = ''
 EVERNOTE_CONSUMER_SECRET = ''
 ```
-and push on Google App Engine.
+For deploying on Google App Engine, you'll need to change ```app.yaml``` of course.
     
