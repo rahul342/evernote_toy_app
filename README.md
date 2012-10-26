@@ -1,12 +1,12 @@
-evernote_toy_app
-================
+<h2>evernote_toy_app</h2>
 
-A simple app that enables browsing of images in your Evernote account (currently sandbox only).
-Essentially converts your evernote account to flickr (doesn't include uploading new images for now)
+<strong>About</strong>
+A simple app that enables browsing of images in your Evernote account (currently sandbox accounts only).
+Essentially converts your evernote account to a flickr-like utility (doesn't include uploading new images for now)
 
 <h2>Demo</h2>
 
-Try the demo at http://evernotoy.appspot.com (Currently only works with sandbox.evernote)
+Try the demo at http://evernotoy.appspot.com (Currently works with sandbox.evernote only)
 
 <h2>Code Structure</h2>
 
@@ -35,18 +35,27 @@ Try the demo at http://evernotoy.appspot.com (Currently only works with sandbox.
     <ul>
 </li>
 <li>evernotoy (Code for the app)</li>
+</ul>
 
 
-The app is structured like any other django app. I have added a wrapper over the api in evernotoy/evernote_api.py (Trimmed and appended https://github.com/akhaku/evernote-django to suit the purpose. Thanks https://github.com/akhaku!)
+The app is structured like any other django app. I have added a wrapper over the api in (evernote_api.py)(https://github.com/rahul342/evernote_toy_app/blob/master/evernotoy/evernote_api.py) (Trimmed and appended <a href="https://github.com/akhaku/evernote-django">evernote-django</a> to suit the purpose. Thanks <a href="https://github.com/akhaku">akhaku</a>!)
 
 <h3> Some other libraries/frameworks/sources </h3>
 Also using the awesome 
 <ul>
-<li>http://twitter.github.com/bootstrap/</li>
-<li>https://github.com/jackmoore/colorbox</li>
+<li>[Twitter Bootstrap](http://twitter.github.com/bootstrap/)</li>
+<li>[ColorBox](http://www.jacklmoore.com/colorbox)</li>
 <li>Background image from http://subtlepatterns.com/</li>
+</ul>
 
 
 
-<h2>
+<h2>Usage</h2>
+
+To deploy your own version, download the code. Add a new ```evernote_key_settings.py``` file in the root directory. Add your Evernote dev keys as -
+```python
+EVERNOTE_CONSUMER_KEY = ''
+EVERNOTE_CONSUMER_SECRET = ''
+```
+and push on Google App Engine.
     
