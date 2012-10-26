@@ -42,7 +42,7 @@ class EvernoteAPI:
         return notes.notes
 
     def get_image_resource_guids(self, note_offset=0, resource_offset=0, max_images=10):
-        """Gets images (total = max_images) starting from resource_offset in note_offset. Each image is between 256x256 and 1024x1024
+        """Gets images (total = max_images) starting from resource_offset in note_offset. Each image is above 256x256.
            Returns a tuple (note_offset, resource_offset, image_guid list). (note_offset, resourcse_offset) points to the next unprocessed resource
         """
         if max_images == 0:
