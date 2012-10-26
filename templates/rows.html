@@ -1,0 +1,9 @@
+<div class="row image-row">
+  	{% for image_guid in image_guids %}
+		<div class="span2 image-box"><div class="image-container" onclick='load_big_image("{{image_guid}}")'><img src="{{shard_url}}/thm/res/{{image_guid}}?size=150&auth={{token|urlencode}}"></div></div>
+		{% if forloop.counter|divisibleby:"6" and not forloop.first %}
+  		</div>
+  		<div class="row image-row">
+  		{% endif %}
+	{% endfor %}
+</div>

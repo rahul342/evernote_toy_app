@@ -1,0 +1,51 @@
+
+body {
+	background-image: url(/static/img/bedge_grunge.png); 
+	background-position: initial initial; 
+	background-repeat: initial initial;
+}
+
+.image-row {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.image-box {
+	background-color: white;
+	box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4);
+}
+
+.image-container {
+	margin: 10px;
+	height:150px;
+}
+
+.image-container:hover {
+	cursor: pointer; cursor: hand	
+}
+
+.footer {
+	margin-bottom: 80px;
+}
+
+.login-masthead {
+	background-color: #1B1B1B;
+    background-image: linear-gradient(to bottom, #222222, #111111);
+    background-repeat: repeat-x;
+    border-color: #252525;
+	color: white;
+	padding-bottom: 30px;
+	padding-top: 30px;
+}
+
+.login-masthead h1 {
+	font-size: 40px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    line-height: 1;
+}
+
+.login-box {
+	padding:80px;
+}
+

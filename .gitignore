@@ -1,0 +1,9 @@
+# /
+*.pyc
+.project
+.pydevproject
+/evernote_key_settings.py
+/.gaedata/*
+/gwt/DashboardGwt/war/dashboardgwt/*
+*.prefs
+.DS_Store
